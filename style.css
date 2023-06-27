@@ -59,3 +59,8 @@ body {
 .operator {
   color: #159e4c;
 }
+
+#ac {
+  display: grid;
+  grid-column: 1 / span 2;
+}
