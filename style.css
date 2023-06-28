@@ -17,16 +17,6 @@ body {
   background: #e0e3eb;
 }
 
-.dark-mode display {
-  background-color: rgb(43, 43, 43);
-  color: white;
-}
-
-.dark-cal {
-  background-color: rgb(43, 43, 43);
-  color: white;
-}
-
 .container {
   position: relative;
   max-width: 320px;
@@ -98,9 +88,23 @@ footer {
 }
 
 .dark-mode {
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(21, 21, 21);
   color: white;
 }
+
+.cal-dark {
+  background-color: rgb(76, 76, 76);
+}
+
+.cal-dark-input {
+  background-color: rgb(76, 76, 76);
+  color: white;
+}
+
+.dark-footer {
+  color: white;
+}
+
 
 @media screen and (min-width: 768px) {
   footer {

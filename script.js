@@ -7,6 +7,16 @@ const buttons = Array.from(document.querySelectorAll(".buttons button"));
 // Button function for Toggle Dark Mode
 function darkMode() {
   document.body.classList.toggle("dark-mode");
+
+  var calDark = document.getElementsByClassName("container");
+  calDark[0].classList.toggle("cal-dark");
+
+  var calDarkIn = document.getElementsByClassName("display");
+  calDarkIn[0].classList.toggle("cal-dark-input");
+
+  var darkFooter = document.getElementsByClassName("footer");
+  darkFooter[0].classList.toggle("dark-footer");
+
 }
 
 // Add event listeners to the buttons
