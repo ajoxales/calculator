@@ -15,7 +15,10 @@ function darkMode() {
   var calDarkIn = document.getElementsByClassName("display");
   calDarkIn[0].classList.toggle("cal-dark-input");
 
-  var darkFooter = document.querySelectorAll("footer");
+  var darkFooter = document.getElementsByTagName("footer");
+  darkFooter[0].classList.toggle("dark-footer");
+
+  var darkFooter = document.getElementsByTagName("ul");
   darkFooter[0].classList.toggle("dark-footer");
 }
 
