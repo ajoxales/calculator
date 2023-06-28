@@ -18,7 +18,8 @@ buttons.forEach(button => {
     } else if (value === '=') {
       // Evaluate the expression
       try {
-        display.value = eval(display.value);
+        const result = eval(display.value);
+        display.value = isFinite(result) ? result : 'Invalid';
       } catch (error) {
         display.value = 'Error';
       }
