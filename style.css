@@ -17,11 +17,6 @@ body {
   background: #e0e3eb;
 }
 
-.dark-mode {
-  background-color: rgb(43, 43, 43);
-  color: white;
-}
-
 .dark-mode display {
   background-color: rgb(43, 43, 43);
   color: white;
@@ -100,6 +95,11 @@ footer {
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
+}
+
+.dark-mode {
+  background-color: rgb(43, 43, 43);
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
