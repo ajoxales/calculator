@@ -6,7 +6,8 @@ const buttons = Array.from(document.querySelectorAll(".buttons button"));
 
 // Button function for Toggle Dark Mode
 function darkMode() {
-  document.body.classList.toggle("dark-mode");
+  var bodydark = document.body;
+  bodydark.classList.toggle("dark-mode");
 
   var calDark = document.getElementsByClassName("container");
   calDark[0].classList.toggle("cal-dark");
@@ -14,9 +15,8 @@ function darkMode() {
   var calDarkIn = document.getElementsByClassName("display");
   calDarkIn[0].classList.toggle("cal-dark-input");
 
-  var darkFooter = document.getElementsByClassName("footer");
+  var darkFooter = document.querySelectorAll("footer");
   darkFooter[0].classList.toggle("dark-footer");
-
 }
 
 // Add event listeners to the buttons
@@ -34,7 +34,7 @@ buttons.forEach((button) => {
       // Evaluate the expression
       try {
         const result = eval(display.value);
-        display.value = isFinite(result) ? result : 'Invalid';
+        display.value = isFinite(result) ? result : "Invalid";
       } catch (error) {
         display.value = "Error";
       }
