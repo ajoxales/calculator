@@ -14,6 +14,12 @@ body {
   justify-content: center;
   background: #e0e3eb;
 }
+
+.dark-mode {
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
 .container {
   position: relative;
   max-width: 300px;
@@ -42,7 +48,7 @@ body {
 
 .buttons button:hover {
   opacity: 1;
-  background-color: #dedede;
+  background: #dedede;
 }
 .buttons button {
   padding: 10px;
@@ -58,16 +64,6 @@ body {
 }
 .operator {
   color: #159e4c;
-}
-
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
-.light-mode {
-  background-color: white;
-  color: black;
 }
 
 #ac {
