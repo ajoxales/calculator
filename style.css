@@ -16,6 +16,12 @@ body {
   align-items: center;
   background: #e0e3eb;
 }
+
+.dark-mode {
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
 .container {
   position: relative;
   max-width: 320px;
@@ -45,7 +51,7 @@ body {
 
 .buttons button:hover {
   opacity: 1;
-  background-color: #dedede;
+  background: #dedede;
 }
 
 .buttons button {
@@ -65,16 +71,6 @@ body {
   color: #159e4c;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
-.light-mode {
-  background-color: white;
-  color: black;
-}
-
 #ac {
   display: grid;
   grid-column: 1 / span 2;
@@ -90,7 +86,7 @@ header {
 
 footer {
   display: flex;
-  color: white;
+  color: black;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
