@@ -4,6 +4,12 @@ const display = document.querySelector(".display");
 // Get all the buttons
 const buttons = Array.from(document.querySelectorAll(".buttons button"));
 
+// Button function for Toggle Dark Mode
+function darkMode() {
+  var bodydark = document.body;
+  bodydark.classList.toggle("dark-mode");
+}
+
 // Add event listeners to the buttons
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
