@@ -6,8 +6,10 @@ const buttons = Array.from(document.querySelectorAll(".buttons button"));
 
 // Button function for Toggle Dark Mode
 function darkMode() {
-  var bodydark = document.body;
+  let bodydark = document.body;
+  let footer = document.getElementById("#footers");
   bodydark.classList.toggle("dark-mode");
+  footer.classList.toggle("dark-mode");
 }
 
 // Add event listeners to the buttons
@@ -25,7 +27,7 @@ buttons.forEach((button) => {
       // Evaluate the expression
       try {
         const result = eval(display.value);
-        display.value = isFinite(result) ? result : 'Invalid';
+        display.value = isFinite(result) ? result : "Invalid";
       } catch (error) {
         display.value = "Error";
       }
