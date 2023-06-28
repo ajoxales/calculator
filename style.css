@@ -74,11 +74,3 @@ body {
   display: grid;
   grid-column: 1 / span 2;
 }
-
-footer {
-  display: flex;
-  color:white;
-  justify-content: center;
-  align-items: center;
-  padding: 0.7rem;
-}
