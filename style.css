@@ -7,6 +7,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
+
 body {
   height: 100vh;
   display: flex;
@@ -44,6 +45,7 @@ body {
   opacity: 1;
   background-color: #dedede;
 }
+
 .buttons button {
   padding: 10px;
   border-radius: 6px;
