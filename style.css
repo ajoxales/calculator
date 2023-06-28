@@ -60,6 +60,16 @@ body {
   color: #159e4c;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
 #ac {
   display: grid;
   grid-column: 1 / span 2;
